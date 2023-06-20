@@ -1,0 +1,19 @@
+package practice;
+
+public class CreateObjectExample1
+{
+    public int a;//public main bhi naahi hua
+    void show()
+    {
+        System.out.println("Welcome to javaTpoint");
+    }
+    public static void main(String[] args)
+    {
+//creating an object using new keyword
+        CreateObjectExample1 obj = new CreateObjectExample1();
+//invoking method using the object
+        obj.show();
+        System.out.println("value of a is "+obj.a);//why cant a variable used here. after use of obj(object name it has been used ) 
+
+    }
+}
